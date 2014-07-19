@@ -1,6 +1,9 @@
 set (BTCommon_SRCS
 	Action.cpp
 	AttackObject.cpp
+	Base/MechBase.cpp
+	Base/MechPartBase.cpp
+	Base/WeaponBase.cpp
 	BiHash.cpp
 	BTMapManager.cpp
 	Colors.cpp
@@ -16,11 +19,11 @@ set (BTCommon_SRCS
 	InfoBar.cpp
 	Map.cpp
 	Mech.cpp
-	MechBase.cpp
 	MechEntity.cpp
 	MechPart.cpp
-	MechPartBase.cpp
 	MechWarrior.cpp
+	Model/MechModel.cpp
+	Model/WeaponModel.cpp
 	MoveObject.cpp
 	Objects.cpp
 	Paths.cpp
@@ -33,7 +36,6 @@ set (BTCommon_SRCS
 	TileManager.cpp
 	Utils.cpp
 	Weapon.cpp
-	WeaponBase.cpp
 )
 
 set (BTCommon_HDRS
@@ -42,12 +44,12 @@ set (BTCommon_HDRS
 	GraphicsHex.h
 	GraphicsMap.h
 	InfoBar.h
-	MechBase.h
 	MechEntity.h
+	Model/MechModel.h
+	Model/WeaponModel.h
 	Objects.h
 	Player.h
 	Rules.h
-	WeaponBase.h
 )
 
 qt5_wrap_cpp (BTCommon_SRCS ${BTCommon_HDRS})

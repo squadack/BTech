@@ -1,5 +1,6 @@
 /*
 Copyright (C) 2014 by Piotr Majcherczyk <fynxor [at] gmail [dot] com>
+Copyright (C) 2014 by Krzysztof Adamek <squadack [at] students [dot] mimuw [dot] edu [dot] pl>
 This file is part of BTech Project.
 
 	BTech Project is free software: you can redistribute it and/or modify
@@ -20,7 +21,7 @@ This file is part of BTech Project.
 #define EDIT_WEAPONS_DIALOG_H
 
 #include <QtWidgets>
-#include "BTCommon/WeaponBase.h"
+#include "BTCommon/Model/WeaponModel.h"
 #include "BTMapEditor/ManagersUtils.h"
 
 /**

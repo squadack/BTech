@@ -1,5 +1,6 @@
 /*
 Copyright (C) 2014 by Piotr Majcherczyk <fynxor [at] gmail [dot] com>
+Copyright (C) 2014 by Krzysztof Adamek <squadack [at] students [dot] mimuw [dot] edu [dot] pl>
 This file is part of BTech Project.
 
 	BTech Project is free software: you can redistribute it and/or modify
@@ -19,8 +20,8 @@ This file is part of BTech Project.
 #ifndef DATA_MANAGER_H
 #define DATA_MANAGER_H
 
-#include "BTCommon/MechBase.h"
-#include "BTCommon/WeaponBase.h"
+#include "BTCommon/Model/MechModel.h"
+#include "BTCommon/Model/WeaponModel.h"
 
 class DataManager
 {

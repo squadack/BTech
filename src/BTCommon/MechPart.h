@@ -21,7 +21,7 @@ This file is part of BTech Project.
 
 #include "BTCommon/AttackObject.h"
 #include "BTCommon/Effect.h"
-#include "BTCommon/MechPartBase.h"
+#include "BTCommon/Base/MechPartBase.h"
 #include "BTCommon/Weapon.h"
 
 class MechPart : public WeaponHolder, public EffectProne
